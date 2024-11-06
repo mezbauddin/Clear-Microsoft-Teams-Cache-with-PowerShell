@@ -25,4 +25,4 @@ foreach ($folder in $foldersToClear) {
 }
 
 # Optionally, restart Microsoft Teams
-Start-Process "$env:LOCALAPPDATA\Microsoft\Teams\Update.exe" --processStart "Teams.exe"
+Start-Process "$env:LOCALAPPDATA\Microsoft\Teams\Update.exe" -ArgumentList '--processStart', 'Teams.exe'
