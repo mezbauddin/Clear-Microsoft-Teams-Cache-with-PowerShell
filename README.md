@@ -1,4 +1,4 @@
-##Clear Microsoft Teams Cache with PowerShell
+# Clear Microsoft Teams Cache with PowerShell
 Overview
 This PowerShell script clears the cache for the Microsoft Teams desktop application on Windows. Clearing the cache can help resolve common issues such as:
 
